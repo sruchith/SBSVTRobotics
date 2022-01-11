@@ -104,49 +104,6 @@ namespace ShortestDistanceAPI.Controllers
             return shortestDistances;
 
         }
-
-        //private double RobotForTransportation(List<PointF> pm, PointF p1, PointF p2, out PointF closest)
-        //{
-        //    float dx = p2.X - p1.X;
-        //    float dy = p2.Y - p1.Y;
-        //    closest = default;
-        //    foreach (PointF pt in pm)
-        //    {
-
-        //        if ((dx == 0) && (dy == 0))
-        //        {
-        //            closest = p1;
-        //            dx = pt.X - p1.X;
-        //            dy = pt.Y - p1.Y;
-        //            return Math.Sqrt(dx * dx + dy * dy);
-        //        }
-
-        //        float t = ((pt.X - p1.X) * dx + (pt.Y - p1.Y) * dy) /
-        //            (dx * dx + dy * dy);
-
-        //        if (t < 0)
-        //        {
-        //            closest = new PointF(p1.X, p1.Y);
-        //            dx = pt.X - p1.X;
-        //            dy = pt.Y - p1.Y;
-        //        }
-        //        else if (t > 1)
-        //        {
-        //            closest = new PointF(p2.X, p2.Y);
-        //            dx = pt.X - p2.X;
-        //            dy = pt.Y - p2.Y;
-        //        }
-        //        else
-        //        {
-        //            closest = new PointF(p1.X + t * dx, p1.Y + t * dy);
-        //            dx = pt.X - closest.X;
-        //            dy = pt.Y - closest.Y;
-        //        }
-        //    }
-
-
-        //    return Math.Sqrt(dx * dx + dy * dy);
-        //}
     }
 
 }
