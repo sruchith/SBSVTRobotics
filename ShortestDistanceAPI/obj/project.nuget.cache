@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ja16ZUAN0oQhKNjbydHEwzuVB4vOmrQqTrTeO5EszwTUy9Hl63OLKV/QONXFy4QIGxDNLzaE/u4ENz81ykuTnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sruchitkumar.bommine\\Downloads\\ShortestDistanceAPI\\ShortestDistanceAPI\\ShortestDistanceAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sruchitkumar.bommine\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
